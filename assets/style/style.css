@@ -420,6 +420,12 @@ nav .limiter .active {
   line-height: 164.38%;
 }
 
+@media (max-width: 800px) {
+  .download-section .container .text-container h1 {
+    font-size: 18px;
+  }
+}
+
 .download-section .container .text-container button {
   margin-top: 50px;
 }
