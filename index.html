@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Track My Ipon</title>
+		<link rel="stylesheet" href="assets/style/style.css" />
+		<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="limiter">
+				<div class="logo">
+					<h3>TrackMyIpon</h3>
+				</div>
+				<ul class="navlinks" id="links">
+					<li class="navitems"><a href="#about" class="itemlinks">About</a></li>
+					<li class="navitems">
+						<a href="#how-it-works" class="itemlinks">How it works</a>
+					</li>
+					<li class="navitems"><a href="#download" class="itemlinks">Download</a></li>
+				</ul>
+				<div id="burger">
+					<div class="burgerlines"></div>
+					<div class="burgerlines"></div>
+					<div class="burgerlines"></div>
+				</div>
+			</div>
+		</nav>
+
+		<section class="hero-section">
+			<div class="container">
+				<div class="text-container">
+					<h1 class="main-text">Achieve Your Financial Goals with Ease</h1>
+					<p>
+						TrackMyIpon is the Android application designed to revolutionize the way you save. Effortlessly track your savings goals, manage transactions, and
+						secure your financial future.
+					</p>
+					<a href="https://expo.dev/artifacts/eas/89F9o1RKnyvWBiXx8nHxJz.apk" target="_blank">
+						<button>Download Now</button>
+					</a>
+				</div>
+				<div class="img-container">
+					<img src="assets/images/hero_image2.png" alt="" class="main-img" />
+					<img src="assets/images/rect1.png" alt="" class="rect1" />
+					<img src="assets/images/rect2.png" alt="" class="rect2" />
+					<img src="assets/images/circle1.png" alt="" class="circle1" />
+				</div>
+			</div>
+		</section>
+
+		<section class="about-section" id="about">
+			<div class="container">
+				<div class="img-container">
+					<img src="assets/images/about_image.png" alt="" />
+				</div>
+				<div class="text-container">
+					<h1 class="main-text">Track your savings progress and achieve your financial aspirations.</h1>
+					<div class="line"></div>
+					<div class="features">
+						<p>
+							<span>Personalized Goals:</span>
+							Create customized savings goals for all your financial dreams.
+						</p>
+						<p>
+							<span>Real-Time Progress Tracking:</span>
+							Stay motivated by monitoring your progress at a glance.
+						</p>
+						<p>
+							<span>Transaction Management:</span>
+							Effortlessly add, edit, and delete transactions for accurate savings tracking.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="how-it-works-section" id="how-it-works">
+			<div class="container">
+				<div class="text-container-wrapper">
+					<div class="text-container">
+						<h1 class="main-text">How It Works</h1>
+						<div class="steps-list">
+							<ol>
+								<li class="step-item">Set Your Goal: Name your savings goal and set the target amount you want to achieve.</li>
+								<li class="step-item">Track Transactions: Add deposits or withdrawals to your goal as you make progress.</li>
+								<li class="step-item">Monitor Progress: View real-time updates and track your savings journey effortlessly.</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="img-container">
+					<img id="img1" class="step-image" src="assets/images/add_goal.png" alt="Image 1" data-step="1" />
+					<img id="img2" class="step-image" src="assets/images/add_num.png" alt="Image 2" data-step="2" />
+					<img id="img3" class="step-image" src="assets/images/goal_list.png" alt="Image 3" data-step="3" />
+				</div>
+			</div>
+		</section>
+		<section class="download-section" id="download">
+			<div class="container">
+				<div class="text-container">
+					<h1>Start your savings journey today! Download TrackMyIpon now and take control of your financial future.</h1>
+					<a href="https://expo.dev/artifacts/eas/89F9o1RKnyvWBiXx8nHxJz.apk" target="_blank">
+						<button>Download Now</button>
+					</a>
+				</div>
+			</div>
+		</section>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
